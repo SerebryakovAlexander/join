@@ -1,4 +1,6 @@
 ru/raiffeisen/join/repositories/MasterRepository.class
 ru/raiffeisen/join/rest/FirstRest.class
+ru/raiffeisen/join/entities/ChildFirst.class
 ru/raiffeisen/join/entities/Master.class
 ru/raiffeisen/join/JoinApplication.class
+ru/raiffeisen/join/repositories/ChildFirstRepository.class

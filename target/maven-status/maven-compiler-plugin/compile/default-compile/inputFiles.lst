@@ -1,2 +1,6 @@
+/Users/alexanderserebryakov/IdeaProjects/join/src/main/java/ru/raiffeisen/join/repositories/ChildFirstRepository.java
 /Users/alexanderserebryakov/IdeaProjects/join/src/main/java/ru/raiffeisen/join/rest/FirstRest.java
+/Users/alexanderserebryakov/IdeaProjects/join/src/main/java/ru/raiffeisen/join/repositories/MasterRepository.java
+/Users/alexanderserebryakov/IdeaProjects/join/src/main/java/ru/raiffeisen/join/entities/ChildFirst.java
+/Users/alexanderserebryakov/IdeaProjects/join/src/main/java/ru/raiffeisen/join/entities/Master.java
 /Users/alexanderserebryakov/IdeaProjects/join/src/main/java/ru/raiffeisen/join/JoinApplication.java
