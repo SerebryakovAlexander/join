@@ -14,6 +14,8 @@ public class ChildFirst {
     public ChildFirst()
     {
         master = new Master();
+
+        master.setChildFirst(this);
     }
 
     @Id
@@ -24,8 +26,7 @@ public class ChildFirst {
     private String field3;
 
 
-    @OneToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "id", referencedColumnName = "documentId")
+    @OneToOne(optional = false, cascade = CascadeType.ALL, mappedBy = "childFirst")
     @Fetch(FetchMode.JOIN)
     private Master master;
 

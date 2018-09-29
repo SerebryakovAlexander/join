@@ -26,7 +26,7 @@ public class FirstRest {
 
         childFirstRepository.save(c);
 
-        Iterable<ChildFirst> l = childFirstRepository.findAll();
+        Iterable<ChildFirst> l = childFirstRepository.findAllCustom();
 
         return l.toString();
     }
