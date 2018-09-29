@@ -26,7 +26,7 @@ public class ChildFirst {
     private String field3;
 
 
-    @OneToOne(optional = false, cascade = CascadeType.ALL, mappedBy = "childFirst")
+    @OneToOne(optional = false, cascade = CascadeType.ALL, mappedBy = "childFirst", fetch = FetchType.LAZY)
     @Fetch(FetchMode.JOIN)
     private Master master;
 

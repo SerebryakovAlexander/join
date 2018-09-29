@@ -20,7 +20,7 @@ public class Master {
     @Column(name = "document_id", insertable = false, updatable = false)
     private Long documentId;
 
-    @OneToOne(optional = false)
+    @OneToOne(optional = false, fetch = FetchType.LAZY)
     @JoinColumn(name = "document_id")
     @Fetch(FetchMode.JOIN)
     private ChildFirst childFirst;
